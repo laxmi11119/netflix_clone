@@ -1,0 +1,73 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url('logo1.jpg');
+    background-size: 100% 100%;
+
+}
+
+
+a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.profile-icon {
+    cursor: pointer;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Main content */
+.main-content {
+    padding: 20px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.play-button {
+    background-color: #e50
+}
